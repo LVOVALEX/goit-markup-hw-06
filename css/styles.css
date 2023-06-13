@@ -602,14 +602,13 @@ p {
   fill: #f4f4fd;
 }
 
-.container-form{
-padding-left: 80px;
-  
+.container-form {
+  padding-left: 80px;
 }
 
 .form-footer {
   display: flex;
-  gap 24px
+  gap: 24px;
 }
 
 .footer-title {
@@ -652,7 +651,7 @@ padding-left: 80px;
 }
 
 .btn-footer {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -665,21 +664,25 @@ padding-left: 80px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-field {
-  position: relative;
+  /* position: relative; */
   display: flex;
 }
 
 .footer-btn-icon {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   transform: translateY(-50%);
   color: #ffffff;
-  right: 24px;
+  right: 24px; */
+  margin-left: 16px;
 }
 
 .blackdrop {
@@ -873,7 +876,7 @@ padding-left: 80px;
 }
 
 .rule-privacy {
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .modal-check:checked + .check-text span {
@@ -881,6 +884,7 @@ padding-left: 80px;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
   border: none;
+  display: inline-flex;
 }
 
 .modal-check:focus + .check-text span {
