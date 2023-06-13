@@ -538,57 +538,54 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-field">
-            <label class="input-label">
-              <span>Name</span>
-              <span class="input-wrap">
-                <input
-                  type="text"
-                  name="user-name"
-                  class="modal-input"
-                  placeholder="Name"
-                  required
-                  minlength="2"
-                  maxlength="30"
-                />
-                <svg class="modal-icon" width="18" height="18">
-                  <use href="./images/icons.svg#icon-person-black"></use>
-                </svg>
-              </span>
-            </label>
+            <label for="user-name" class="input-label">Name</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+                placeholder="Name"
+                required
+                minlength="2"
+                maxlength="30"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field">
-            <label class="input-label">
-              <span>Phone</span>
-              <span class="input-wrap">
-                <input
-                  type="tel"
-                  name="user-phone"
-                  class="modal-input"
-                  placeholder="Phone"
-                  required
-                />
-                <svg class="modal-icon" width="18" height="18">
-                  <use href="./images/icons.svg#icon-phone-black"></use>
-                </svg>
-              </span>
-            </label>
+            <label for="user-phone" class="input-label">Phone</label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                class="modal-input"
+                placeholder="Phone"
+                required
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field">
-            <label class="input-label">
-              <span>Email</span>
-              <span class="input-wrap">
-                <input
-                  type="email"
-                  name="user-email"
-                  class="modal-input"
-                  placeholder="Email"
-                  required
-                />
-                <svg class="modal-icon" width="18" height="18">
-                  <use href="./images/icons.svg#icon-email-black"></use>
-                </svg>
-              </span>
-            </label>
+            <label for="user-email" class="input-label">Email</label>
+            <div class="input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                class="modal-input"
+                placeholder="Email"
+                required
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </div>
           </div>
           <div>
             <label for="user-text" class="input-label-coment">Comment</label>
