@@ -849,22 +849,33 @@ p {
 }
 
 .check-text span {
-  width: 16px;
+  /* width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
   /* display: flex; */
+  /* align-items: center;
+  justify-content: center;
+  fill: transparent;
+  display: inline-flex; */ */
+}
+
+.rule-privacy {
+    width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  margin-right: 8px;
+
   align-items: center;
   justify-content: center;
   fill: transparent;
   display: inline-flex;
-}
-
-.rule-privacy {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .modal-check:checked + .check-text span {
@@ -872,7 +883,7 @@ p {
   border: 1px solid #404bbf;
   fill: #f4f4fd;
   border: none;
-  /* display: inline-flex; */
+  display: inline-flex;
 }
 
 .modal-check:focus + .check-text span {
